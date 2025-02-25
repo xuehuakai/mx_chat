@@ -26,6 +26,10 @@ enum Modules{
     REGISTERMOD = 0,
 };
 
+extern QString gate_url_prefix;
+
+
+
 enum ErrorCodes{
     SUCCESS = 0,
     ERR_JSON = 1, //json 解析失败

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 12.0.0, 2025-02-06T17:20:24. -->
+<!-- Written by QtCreator 12.0.0, 2025-02-25T19:05:49. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -241,13 +241,14 @@
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
     <value type="bool" key="PE.EnvironmentAspect.PrintOnRun">false</value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:D:/pro_new_ject_Qt/_64QtProgram/mx_chat/mx_chat.pro</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">D:/pro_new_ject_Qt/_64QtProgram/mx_chat/mx_chat.pro</value>
-    <value type="bool" key="ProjectExplorer.RunConfiguration.Customized">false</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">mx_chat2</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:D:/pro_new_ject_Qt/_64QtProgram/new_mx_chat/mx_chat/mx_chat.pro</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">D:/pro_new_ject_Qt/_64QtProgram/new_mx_chat/mx_chat/mx_chat.pro</value>
+    <value type="bool" key="ProjectExplorer.RunConfiguration.Customized">true</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
+    <value type="bool" key="RunConfiguration.UseTerminal">false</value>
     <value type="QString" key="RunConfiguration.WorkingDirectory.default">D:/pro_new_ject_Qt/_64QtProgram/build-mx_chat-Desktop_Qt_6_6_1_MinGW_64_bit-Debug</value>
    </valuemap>
    <value type="qlonglong" key="ProjectExplorer.Target.RunConfigurationCount">1</value>

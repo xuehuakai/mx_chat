@@ -13,7 +13,6 @@ MainWindow::MainWindow(QWidget *parent)
     //创建和注册消息连接
     connect(_login_dlg,&LoginDialog::SwitchRegister,this,&MainWindow::SlotSwitchReg);
     _reg_dlg = new RegusterDialog(this);
-
     _login_dlg->setWindowFlags(Qt::CustomizeWindowHint | Qt::FramelessWindowHint);
     _reg_dlg->setWindowFlags(Qt::CustomizeWindowHint | Qt::FramelessWindowHint);
     _reg_dlg->hide();
