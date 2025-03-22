@@ -13,6 +13,7 @@ LoginDialog::LoginDialog(QWidget *parent)
 LoginDialog::~LoginDialog()
 {
     delete ui;
+    qDebug()<<"login_dlg析构调用";
 }
 
 

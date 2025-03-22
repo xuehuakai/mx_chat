@@ -1,7 +1,6 @@
 #ifndef SINGLETON_H
 #define SINGLETON_H
 #include"global.h"
-
 /**
  * @brief 单例类
  * /

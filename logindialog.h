@@ -19,6 +19,7 @@ private:
     Ui::LoginDialog *ui;
 signals:
     void SwitchRegister();
+    void switchReset();
 };
 
 #endif // LOGINDIALOG_H

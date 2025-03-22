@@ -5,7 +5,7 @@
 #include<QMessageBox>
 #include<QDir>
 #include<QSettings>
-QString gate_url_prefix = "";
+QString gate_url_prefix = "http://localhost:8080";
 
 int main(int argc, char *argv[])
 {
