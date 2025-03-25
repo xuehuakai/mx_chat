@@ -16,6 +16,7 @@ SOURCES += \
     main.cpp \
     mainwindow.cpp \
     regusterdialog.cpp \
+    resetdialog.cpp \
     timberbtn.cpp
 
 HEADERS += \
@@ -25,13 +26,15 @@ HEADERS += \
     logindialog.h \
     mainwindow.h \
     regusterdialog.h \
+    resetdialog.h \
     singleton.h \
     timberbtn.h
 
 FORMS += \
     logindialog.ui \
     mainwindow.ui \
-    regusterdialog.ui
+    regusterdialog.ui \
+    resetdialog.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

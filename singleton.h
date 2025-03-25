@@ -1,13 +1,12 @@
 #ifndef SINGLETON_H
 #define SINGLETON_H
-#include"global.h"
 /**
  * @brief 单例类
  * /
 
 /*类的static成员初始化：模板类需要在cpp中   非模板类需要在.h中*/
 
-
+#include"global.h"
 template<typename T>
 class Singleton{
 protected:

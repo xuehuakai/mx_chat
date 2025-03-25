@@ -20,6 +20,8 @@ private:
 signals:
     void SwitchRegister();
     void switchReset();
+private slots:
+    void slot_forget_pwd();
 };
 
 #endif // LOGINDIALOG_H

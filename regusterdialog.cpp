@@ -3,11 +3,14 @@
 #include"global.h"
 #include"httpmgr.h"
 #include<QPushButton>
+#include<QMessageBox>
 #include<QDebug>
+#include<QTimer>
 RegusterDialog::RegusterDialog(QWidget *parent)
     : QDialog(parent)
     , ui(new Ui::RegusterDialog)
 {
+    qDebug()<<"registdg构造";
     ui->setupUi(this);
     ui->pass_edit->setEchoMode(QLineEdit::Password);
     ui->confirm_edit->setEchoMode(QLineEdit::Password);
@@ -86,6 +89,7 @@ RegusterDialog::~RegusterDialog()
 
 void RegusterDialog::on_get_code_btn_clicked()
 {
+    QMessageBox::information(this,"提示","验证码获取中.......");
     qDebug()<<"get varify_code";
     QString email = ui->email_edit->text();
     QRegularExpression regex(R"((\w+)(\.|_)?(\w*)@(\w+)(\.(\w+))+)");

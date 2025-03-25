@@ -12,7 +12,6 @@ HttpMgr::HttpMgr() {
 
 void HttpMgr::PostHttpReq(QUrl url, QJsonObject json, ReqId req_id, Modules mod)
 {
-    qDebug()<<"PostHttpReq";
     QByteArray data = QJsonDocument(json).toJson();
     QNetworkRequest request(url);
     request.setHeader(QNetworkRequest::ContentTypeHeader,"application/json");
@@ -42,5 +41,9 @@ void HttpMgr::slot_http_finish(ReqId id, QString res, ErrorCodes err, Modules mo
     if(mod == Modules::REGISTERMOD){//注册模块
         //发送注册信息通知指定模块http的响应结束了
         emit sig_reg_mod_finish(id,res,err);
+    }
+
+    if(mod == Modules::RESETMOD){
+        emit sig_reset_mod_finish(id,res,err);
     }
 }

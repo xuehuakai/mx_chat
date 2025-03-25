@@ -222,7 +222,7 @@
             <widget class="QLineEdit" name="verify_edit"/>
            </item>
            <item>
-            <widget class="TimberBtn" name="get_code_btn">
+            <widget class="QPushButton" name="get_code_btn">
              <property name="text">
               <string>获取</string>
              </property>
@@ -371,11 +371,6 @@
   </layout>
  </widget>
  <customwidgets>
-  <customwidget>
-   <class>TimberBtn</class>
-   <extends>QPushButton</extends>
-   <header>timberbtn.h</header>
-  </customwidget>
   <customwidget>
    <class>ClickLabel</class>
    <extends>QLabel</extends>
